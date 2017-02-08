@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &156300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 486396}
+  - 114: {fileID: 11475114}
+  m_Layer: 0
+  m_Name: ManagerDevice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486396
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11475114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38085ac20e0f40a89f9ebd816369fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VarVisualDevices: 0
+  VarManipulationDevices: 0
+  VarNavigationDevices: 0
+  VarKeyboardNavPerson: 0
+  Keyboard_PlayerSpeed: 7
+  keyboard_FirstPerson_CameraDistance: 2.5
+  keyboard_FirstPerson_CameraHeight: .75
+  keyboard_ObjectFollow: {fileID: 0}
+  Display_Third_Person: 0
+  Display_First_Person: 0
+  Ovr_PlayerController: 0
+  Ovr_CameraRig: 0
+  Leap_IsHeadMounted: 0
+  Leap_LeftGraphicsModel: {fileID: 0}
+  Leap_RightGraphicsModel: {fileID: 0}
+  Leap_ToolModel: {fileID: 0}
+  Leap_DebugInfo: 0
+  Opti_vrpnBroadcast: 0
+  Opti_vrpnPort: 3883
+  Opti_IpServer: 3133382e3130302e31342e3938
+  Opti_MultiCastingGroup: 3233392e3235352e34322e3939
+  Opti_MultiCastingPort: 1511
+  stw_interaxial: 65
+  stw_zeroPrlxDist: 3
+  stw_cameraSelect: 0
+  stw_H_I_T: 0
+  stw_depthPlane: {fileID: 0}
+  m3d_distance: 5
+  m3d_height: 3
+  m3d_damping: 5
+  m3d_rotationDamping: 10
+  m3d_smootRotation: 1
+  m3d_followBehind: 1
+  m3d_target: {fileID: 0}
+  kb_Slow: 0
+  kb_Run: 114
+  kb_Up: 273
+  kb_Down: 274
+  kb_Left: 276
+  kb_Right: 275
+  kb_pitch: 120
+  kb_yaw: 121
+  kb_roll: 122
+  kb_Y_Up: 0
+  kb_Y_Down: 0
+  gp_Slow: 0
+  gp_Run: 8
+  gp_Y_Up: 0
+  gp_Y_Down: 0
+  gp_pitch: 3
+  gp_yaw: 2
+  gp_roll: 0
+  gp_zoomIn: 0
+  gp_zoomOut: 0
+  gp_pad_Up: 0
+  gp_pad_Down: 1
+  gp_pad_Left: 2
+  gp_pad_Right: 3
+  kb_Cam_Right: 0
+  kb_Cam_Left: 0
+  kb_Cam_Up: 0
+  kb_Cam_Down: 0
+  kb_Cam_Rot_Z_Left: 0
+  kb_Cam_Rot_Z_Right: 0
+  kb_Cam_ZoomIn: 0
+  kb_Cam_ZoomOut: 0
+  gp_Cam_UpDown: 0
+  gp_Cam_LeftRight: 0
+  gp_Cam_zRotation: 0
+  cam_maxRotationSpeed: 1
+  cam_maxAngleRot_X: 15
+  cam_maxAngleRot_Y: 15
+  cam_maxAngleRot_Z: 15
+  cam_zoomFactor: 1
+  navRunFactor: 2
+  navSlowFactor: 0
+  kb_ResetCameraRotation: 0
+  gp_ResetCameraRotation: 0
+  resetCameraRotation: 0
+  kb_ResetAvatarRotation: 0
+  gp_ResetAvatarRotaton: 0
+  resetAvatarRotation: 0
+  gp_mixCamRotAxisX: 0
+  gp_mixCamRotAxisY: 0
+  gp_mixCamRotAxisZ: 0
+  gp_mixButtonCamRotAxisX: 0
+  gp_mixButtonCamRotAxisY: 0
+  gp_mixButtonCamRotAxisZ: 0
+  gp_mixAvaRotAxisX: 0
+  gp_mixAvaRotAxisY: 0
+  gp_mixAvaRotAxisZ: 0
+  gp_mixButtonAvaRotAxisX: 0
+  gp_mixButtonAvaRotAxisY: 0
+  gp_mixButtonAvaRotAxisZ: 0
+  mouse_moveGameObjects:
+  - {fileID: 0}
+  mouse_selectionGameObjects: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 156300}
+  m_IsPrefabParent: 1
