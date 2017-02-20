@@ -23,6 +23,11 @@ They must learn to master Unity on their own and then integrate the devices they
 - Import the custom package (Assets / Import Package / Custom Package...).
 - Select all the options to import.
 
->To get an idea how to install this plugin, please watch this video.  
+>To get an idea how to install this plugin, please [watch this video](https://youtu.be/P7qOyK_sw1g).  
 
 [![Install VRPlugin](http://img.youtube.com/vi/P7qOyK_sw1g/0.jpg)](https://youtu.be/P7qOyK_sw1g)
+
+### Credits
+Some parts of this project is built with other components.  
+- To use the XBox gamepad, this project uses the [Unity-XboxCtrlrInput](https://github.com/JISyed/Unity-XboxCtrlrInput/).
+- To use the Mouse 3D, this project uses the [SpaceNavigator](https://github.com/PatHightree/SpaceNavigator) driver for Unity 3D.
